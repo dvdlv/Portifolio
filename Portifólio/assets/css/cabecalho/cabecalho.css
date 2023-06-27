@@ -1,0 +1,18 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: linear-gradient(90deg, #290849 0%, #55185d 100%);}
+
+div.cabecalho-nome{
+    color: #FFD524;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+div.cabecalho-email a{
+    color: #FFD524;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+}
