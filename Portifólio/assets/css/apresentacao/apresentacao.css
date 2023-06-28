@@ -1,0 +1,50 @@
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background: linear-gradient(165deg, #55185d 30%, #290849 70%);
+    max-width: 100vw;
+}
+
+.apresentacao-foto{
+    width: 40vw;
+    margin: 1rem;
+    border-radius: 50%;
+    border: 3px solid white ;
+    align-self: center;
+    transform: rotate(-30deg);
+}
+
+.apresentacao-div h1, .apresentacao-div p{
+    color: white;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.apresentacao-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.apresentacao-ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFD524;
+    display: flex;
+    align-items: center;
+}
+
+.apresentacao-ul li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transform:100ms;
+}
+
+.apresentacao-link-icon{
+    width: 1.25rem;
+}
+

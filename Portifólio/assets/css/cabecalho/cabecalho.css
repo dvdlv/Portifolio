@@ -1,13 +1,21 @@
 .cabecalho{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
-    background: linear-gradient(90deg, #290849 0%, #55185d 100%);}
+    position: relative;
+    background: linear-gradient(180deg, #290849 60%, #55185d 100%);
+}
 
 div.cabecalho-nome{
+    display: flex;
+    align-items: center;
     color: #FFD524;
     font-size: 16px;
     font-weight: 700;
+}
+div.cabecalho-nome img{
+    width: 1.5rem;
 }
 
 div.cabecalho-email a{
@@ -15,4 +23,9 @@ div.cabecalho-email a{
     text-decoration: none;
     font-size: 14px;
     font-weight: 300;
+}
+
+div.cabecalho-email a:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }

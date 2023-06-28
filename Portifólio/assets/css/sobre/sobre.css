@@ -1,0 +1,15 @@
+.sobre{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background:#ede2f8;
+}
+
+.sobre-titulo{
+    margin-bottom: .5rem;
+}
+
+.sobre-descricao{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
