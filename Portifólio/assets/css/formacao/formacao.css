@@ -1,0 +1,34 @@
+.formacao{
+    background-color: #ede2f8;
+    padding: 2rem;
+      padding-top: 1rem;
+}
+
+.formacao-titulo{
+    text-align: center;
+}
+.formacao-imagem{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 118px;
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.formacao-iff{
+   align-self: center;
+    width: 25%;
+    height: 25%;
+}
+
+.formacao-one{
+    align-self: center;
+    width: 35%;
+    height: 35%;
+}
+
+.formacao-alura{
+    align-self: center;
+}

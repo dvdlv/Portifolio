@@ -1,0 +1,36 @@
+.exp {
+    background-color: rgb(248, 244, 228);
+    padding: 2rem;
+}
+
+.exp-titulo {
+    text-align: center;
+}
+
+.exp-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.exp-box-imagem{
+    width: 100%;
+    min-height: 144px;
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.exp-subtitulo{
+    margin-bottom: .125rem;
+}
+
+.exp-info{
+    margin-bottom: .125rem;
+}
+
+.exp-botao-container{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+}
